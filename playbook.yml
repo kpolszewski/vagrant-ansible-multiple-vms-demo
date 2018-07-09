@@ -1,0 +1,14 @@
+- hosts: all
+  tasks:
+    - name: something for ALL
+      shell: echo ALL
+
+- hosts: wp
+  tasks:
+    - name: something for WP
+      shell: echo WP
+
+- hosts: app
+  tasks:
+    - name: something for APP
+      shell: echo APP

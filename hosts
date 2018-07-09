@@ -1,0 +1,10 @@
+[wp]
+192.168.99.100
+
+[app]
+192.168.99.101
+192.168.99.102
+
+[all:vars]
+ansible_ssh_user=vagrant 
+ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
